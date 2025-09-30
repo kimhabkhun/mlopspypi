@@ -101,7 +101,6 @@ username: __token__
 password: pypi-AgEIcHlwaS5vcmcCJDJXXXXXXXXXXXXXXXXXXXXXXXX
 
 ```
-
 Run this to upload and fill the API Token if require (passsword= API Token)
 
 ```bash
@@ -109,6 +108,11 @@ python -m twine upload dist/*
 
 ```
 
+or if not use .pypirc run command:
+```bash
+python -m twine upload -u __token__ -p pypi-AgEIcHlwaS5vcmcCJDJXXXXXXXXXXXXXXXXXXXXXXXX dist/*
+```
+*** remember every publish must change version ***
 ### 6. Installation & Usage
 A simple Python utilities package.
 
