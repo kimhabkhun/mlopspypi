@@ -126,7 +126,7 @@ print(hello("World"))
 ### 7. 🛠  Development
 ```bash
 git clone https://github.com/kimhabkhun/mlopspypi.git
-cd myutils
+cd mlopspypi
 pip install -e .
 
 ```
